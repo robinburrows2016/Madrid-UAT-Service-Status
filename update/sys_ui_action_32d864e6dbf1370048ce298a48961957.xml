@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2/>
+        <comments>Auto-generated button to build stock Generate PDF UI Action</comments>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Preview PDF</name>
+        <onclick>previewDocument();</onclick>
+        <order>100</order>
+        <script><![CDATA[function previewDocument(){
+	var sysId = typeof rowSysId == 'undefined' || rowSysId == null ?
+	gel('sys_uniqueValue').value : rowSysId;
+	
+	
+	var dialogClass = window.GlideModal ? GlideModal : GlideDialogWindow;
+	var dialog = new dialogClass('Preview document dialog v2');
+	var msg = new GwtMessage().getMessage('Edit document');
+	
+	dialog.setTitle(msg);
+	dialog.setPreference('sysparm_sysId', sysId);
+	dialog.setPreference('sysparm_sourceTable', g_form.getTableName());
+	dialog.setPreference('sysparm_templateTable', 'u_general_document_template');
+	dialog.setPreference('sysparm_templateName', 'Purchase Order Form');
+	dialog.setPreference('sysparm_fileName', g_form.getValue('number'));
+	dialog.render();
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>robin.burrows@baesystems.com</sys_created_by>
+        <sys_created_on>2019-06-05 12:00:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>32d864e6dbf1370048ce298a48961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Preview PDF</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Status Mobile" source="x_baes2_service_st">e6673e06db79b3009a45d0a1ca961969</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Service Status Mobile">e6673e06db79b3009a45d0a1ca961969</sys_scope>
+        <sys_update_name>sys_ui_action_32d864e6dbf1370048ce298a48961957</sys_update_name>
+        <sys_updated_by>robin.burrows@baesystems.com</sys_updated_by>
+        <sys_updated_on>2019-06-05 12:00:30</sys_updated_on>
+        <table>proc_po</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

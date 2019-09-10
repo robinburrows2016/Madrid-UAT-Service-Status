@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Outage Ended">61505fc6dbb9b3009a45d0a1ca961956</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Outage Ended</label>
+        <location>trailing_swipe</location>
+        <name>Outage Ended</name>
+        <order>1</order>
+        <parent>669dba4adb79b3009a45d0a1ca961978</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>robin.burrows@baesystems.com</sys_created_by>
+        <sys_created_on>2019-06-04 11:06:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2ae25f4adbb9b3009a45d0a1ca9619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Outage Ended</sys_name>
+        <sys_package display_value="Service Status Mobile" source="x_baes2_service_st">e6673e06db79b3009a45d0a1ca961969</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Service Status Mobile">e6673e06db79b3009a45d0a1ca961969</sys_scope>
+        <sys_update_name>sys_sg_button_instance_2ae25f4adbb9b3009a45d0a1ca9619da</sys_update_name>
+        <sys_updated_by>robin.burrows@baesystems.com</sys_updated_by>
+        <sys_updated_on>2019-06-04 11:06:32</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+</record_update>

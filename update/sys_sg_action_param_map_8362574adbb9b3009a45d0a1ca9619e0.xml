@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Outage Ended">61505fc6dbb9b3009a45d0a1ca961956</button>
+        <item_parameter display_value="End_Outage_Time_IP">4e42974adbb9b3009a45d0a1ca961911</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>robin.burrows@baesystems.com</sys_created_by>
+        <sys_created_on>2019-06-04 11:04:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8362574adbb9b3009a45d0a1ca9619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4e42974adbb9b3009a45d0a1ca961911</sys_name>
+        <sys_package display_value="Service Status Mobile" source="x_baes2_service_st">e6673e06db79b3009a45d0a1ca961969</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Service Status Mobile">e6673e06db79b3009a45d0a1ca961969</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_8362574adbb9b3009a45d0a1ca9619e0</sys_update_name>
+        <sys_updated_by>robin.burrows@baesystems.com</sys_updated_by>
+        <sys_updated_on>2019-06-04 11:04:39</sys_updated_on>
+        <ui_parameter display_value="End">0b415b0adbb9b3009a45d0a1ca9619c4</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

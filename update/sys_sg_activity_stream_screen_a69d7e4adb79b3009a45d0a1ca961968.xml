@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_activity_stream_screen">
+    <sys_sg_activity_stream_screen action="INSERT_OR_UPDATE">
+        <add_additional_comment_button>true</add_additional_comment_button>
+        <add_attachment_button>true</add_attachment_button>
+        <add_work_note_button>true</add_work_note_button>
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item display_value="Outages">666bf286db79b3009a45d0a1ca96198f</data_item>
+        <description/>
+        <dynamic_prefetch_count/>
+        <fetch_type>background</fetch_type>
+        <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
+        <icon display_value="file-alt">be648f8edb79b3009a45d0a1ca9619f6</icon>
+        <name>Activity Stream</name>
+        <order>20</order>
+        <parent>669dba4adb79b3009a45d0a1ca961978</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_activity_stream_screen</sys_class_name>
+        <sys_created_by>robin.burrows@baesystems.com</sys_created_by>
+        <sys_created_on/>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a69d7e4adb79b3009a45d0a1ca961968</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Activity Stream</sys_name>
+        <sys_package display_value="Service Status Mobile" source="x_baes2_service_st">e6673e06db79b3009a45d0a1ca961969</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Service Status Mobile">e6673e06db79b3009a45d0a1ca961969</sys_scope>
+        <sys_update_name>sys_sg_activity_stream_screen_a69d7e4adb79b3009a45d0a1ca961968</sys_update_name>
+        <sys_updated_by>robin.burrows@baesystems.com</sys_updated_by>
+        <sys_updated_on>2019-06-04 10:03:13</sys_updated_on>
+        <table/>
+    </sys_sg_activity_stream_screen>
+</record_update>

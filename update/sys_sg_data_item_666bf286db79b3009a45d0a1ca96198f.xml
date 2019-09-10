@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description>Outages</description>
+        <group_by/>
+        <name>Outages</name>
+        <query_condition table="cmdb_ci_outage">begin&lt;javascript:gs.beginningOfCurrentMinute()^end&gt;javascript:gs.endOfCurrentMinute()^ORendISEMPTY<item endquery="false" field="begin" goto="false" newquery="false" operator="&lt;" or="false" value="javascript:gs.beginningOfCurrentMinute()"/>
+            <item endquery="false" field="end" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.endOfCurrentMinute()"/>
+            <item endquery="false" field="end" goto="false" newquery="false" operator="ISEMPTY" or="true" value=""/>
+        </query_condition>
+        <query_condition_script><![CDATA[(function getQueryString(input) {
+    //Type appropriate comment here, and begin script below
+ var queryString = '';
+ return queryString; 
+ })(input);]]></query_condition_script>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>robin.burrows@baesystems.com</sys_created_by>
+        <sys_created_on>2019-06-04 09:23:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>666bf286db79b3009a45d0a1ca96198f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Outages</sys_name>
+        <sys_package display_value="Service Status Mobile" source="x_baes2_service_st">e6673e06db79b3009a45d0a1ca961969</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Service Status Mobile">e6673e06db79b3009a45d0a1ca961969</sys_scope>
+        <sys_update_name>sys_sg_data_item_666bf286db79b3009a45d0a1ca96198f</sys_update_name>
+        <sys_updated_by>robin.burrows@baesystems.com</sys_updated_by>
+        <sys_updated_on>2019-06-04 09:31:59</sys_updated_on>
+        <table>cmdb_ci_outage</table>
+    </sys_sg_data_item>
+</record_update>
